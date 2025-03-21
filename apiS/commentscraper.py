@@ -1,6 +1,6 @@
 from googleapiclient.discovery import build
 import pandas as pd
-api_key = "AIzaSyAhvccJbupqnxCDH8_tb8vH6aqSVDnnXgo"
+api_key = ""
 youtube = build("youtube", "v3", developerKey=api_key)
 
 def get_comments(video_id):
